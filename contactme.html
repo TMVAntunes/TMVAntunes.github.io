@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Portfólio - Tiago Antunes</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <h4>
+            <a href="/index.html" class="logo">Tiago Antunes</a>
+          </h4>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="/contactme.html">Contact Me</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="Form-Contact-me">
+        <h1>Forms</h1>
+        <form>
+          <div class="first-line-form">
+            <label for="user">Name</label>
+            <input
+              autofocus
+              maxlength="16"
+              minlength="3"
+              name="user"
+              type="text"
+              id="user"
+              required
+            />
+            <select required name="professionaltype" id="professionaltype">
+              <option value=""></option>
+              <option value="Personal">Personal</option>
+              <option value="Professional">Professional</option>
+            </select>
+            <label>Email</label>
+            <input type="email" required />
+          </div>
+          <textarea
+            required
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
